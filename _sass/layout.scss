@@ -14,8 +14,9 @@
 @media only screen and (max-width: 768px) {
 
 	.headerBackground {
-		min-height: 80px;
+		min-height: 120px;
 		height: auto;
+		padding: 15px 0 20px 0;
 	}
 
 }
@@ -158,8 +159,9 @@ header {
 	header {
 		flex-direction: column;
 		align-items: flex-start;
-		gap: 15px;
-		padding: 10px 0;
+		gap: 20px;
+		padding: 15px 0;
+		min-height: auto;
 	}
 
 	.headerLeft {
@@ -169,7 +171,7 @@ header {
 	.headerAppInfo {
 		flex-direction: column;
 		align-items: flex-start;
-		gap: 10px;
+		gap: 12px;
 	}
 
 	.headerAppName {
@@ -191,7 +193,8 @@ header {
 		flex-direction: column;
 		align-items: flex-start;
 		gap: 15px;
-		margin-bottom: 10px;
+		margin-top: 5px;
+		padding-bottom: 5px;
 	}
 
 	.headerDownloadButtons {

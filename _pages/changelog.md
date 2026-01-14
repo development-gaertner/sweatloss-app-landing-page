@@ -1,8 +1,8 @@
 ---
 layout: page
-title: What's New - Sweatloss Updates & Release Notes
+title: What's New in Sweatloss - Latest Updates, Release Notes & Version History for iOS Hydration Tracker
 include_in_header: true
-description: Stay up to date with the latest features, improvements, and bug fixes in Sweatloss hydration tracker app.
+description: Discover the latest features, improvements, and bug fixes in Sweatloss hydration tracker. See what's new in each version with our comprehensive release notes and update history for iPhone and Apple Watch.
 ---
 
 # Changelog
@@ -11,7 +11,7 @@ Stay up to date with the latest features and improvements to Sweatloss.
 <br>
 
 ### `Latest Update`
-# **Version 1.0.1**
+## **Version 1.0.1**
 **January 2026**
 
 #### What's New
@@ -32,7 +32,7 @@ Stay up to date with the latest features and improvements to Sweatloss.
 <br>
 
 ### `Initial Release`
-# **Version 1.0**
+## **Version 1.0**
 **December 2025**
 
 Welcome to Sweatloss! We're excited to introduce the first version of your personal hydration tracking companion. Stay healthy and build better habits by tracking your daily water intake effortlessly.
