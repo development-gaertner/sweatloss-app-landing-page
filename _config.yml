@@ -1,5 +1,8 @@
 #page title
-page_title                                : Sweatloss - Hydration Tracker             # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : Sweatloss - Daily Water Intake & Hydration Tracker App for iOS             # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+
+# Site URL (required for SEO)
+url                                       : https://sweatloss.app
 
 # App Info
 ios_app_id                                :                                           # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).

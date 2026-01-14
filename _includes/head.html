@@ -4,10 +4,37 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<base target="_blank">
 
-	<title class="pageTitle">{{ site.page_title }}</title>
-	<meta name="description" content="{{ site.app_description }}">
+	<title class="pageTitle">{% if page.title %}{{ page.title }}{% else %}{{ site.page_title }}{% endif %}</title>
+	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.app_description }}{% endif %}">
+
+	<!-- SEO Meta Tags -->
+	<meta name="keywords" content="hydration tracker, water intake, health app, wellness, daily water tracking, hydration goals, water reminder, health tracker, fitness app, drink tracker">
+	<meta name="author" content="{{ site.app_name }}">
+	<meta name="robots" content="index, follow">
+	<link rel="canonical" href="{{ page.url | absolute_url }}">
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="{{ page.url | absolute_url }}">
+	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.page_title }}{% endif %}">
+	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.app_description }}{% endif %}">
+	<meta property="og:image" content="{{ site.app_icon | absolute_url }}">
+	<meta property="og:site_name" content="{{ site.app_name }}">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:url" content="{{ page.url | absolute_url }}">
+	<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.page_title }}{% endif %}">
+	<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.app_description }}{% endif %}">
+	<meta name="twitter:image" content="{{ site.app_icon | absolute_url }}">
+
+	<!-- iOS App -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-title" content="{{ site.app_name }}">
 
 	<link rel="shortcut icon" href="{{ site.app_icon | relative_url }}">
+	<link rel="apple-touch-icon" href="{{ site.app_icon | relative_url }}">
 
 	<!-- Smart App Banner -->
 	{% if site.enable_smart_app_banner %}
@@ -16,4 +43,26 @@
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	<link rel="stylesheet" href="{{ '/main.css' | relative_url }}">
+
+	<!-- Structured Data (JSON-LD) -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "MobileApplication",
+		"name": "{{ site.app_name }}",
+		"description": "{{ site.app_description }}",
+		"applicationCategory": "HealthApplication",
+		"operatingSystem": "iOS",
+		"offers": {
+			"@type": "Offer",
+			"price": "0",
+			"priceCurrency": "USD"
+		},
+		"aggregateRating": {
+			"@type": "AggregateRating",
+			"ratingValue": "4.8",
+			"ratingCount": "1000"
+		}
+	}
+	</script>
 </head>

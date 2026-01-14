@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Privacy Policy
+title: Privacy Policy - Sweatloss Hydration Tracker
 include_in_header: false
+description: Your privacy is our priority. Learn how Sweatloss protects your data with local-only storage and no personal information collection.
 ---
 
 **Last updated**

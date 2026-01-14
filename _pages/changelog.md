@@ -1,7 +1,8 @@
 ---
 layout: page
-title: What's New
+title: What's New - Sweatloss Updates & Release Notes
 include_in_header: true
+description: Stay up to date with the latest features, improvements, and bug fixes in Sweatloss hydration tracker app.
 ---
 
 # Changelog
