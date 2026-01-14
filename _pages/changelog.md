@@ -9,6 +9,27 @@ Stay up to date with the latest features and improvements to Sweatloss.
 
 <br>
 
+### `Latest Update`
+# **Version 1.0.1**
+**January 2026**
+
+#### What's New
+- **Redesigned Icons** - All cup sizes now feature beautiful, redesigned icons for better visual clarity
+- **Daily Motivation** - Start your day with inspiring messages, now visible in your Apple Watch Smart Stack
+- **Virtual Water Bottle** - Your virtual water bottle is now prominently displayed on the main screen for easier tracking
+- **Quick Add Button** - New "Plus" button in Bar Coach for lightning-fast drink additions
+
+#### Improvements
+- Enhanced widget experience for iPhone mini series devices
+- Better drink size recognition with updated, more intuitive icons
+- Improved readability when creating custom drinks with better contrast
+
+#### Bug Fixes
+- Fixed Lock Screen shortcut icons displaying at incorrect size
+- Resolved various visual inconsistencies across different device sizes
+
+<br>
+
 ### `Initial Release`
 # **Version 1.0**
 **December 2025**
