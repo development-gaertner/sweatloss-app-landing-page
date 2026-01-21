@@ -6,38 +6,67 @@ description: Discover the latest features, improvements, and bug fixes in Sweatl
 ---
 
 # Changelog
+
 Stay up to date with the latest features and improvements to Sweatloss.
 
 <br>
 
 ### `Latest Update`
+
 ## **Version 1.0.1**
+
 **January 2026**
 
 #### What's New
+
+- **App Icons** - Two new free icons to choose from
+
+#### Improvements
+
+- **Onboarding optimized** - HealthKit no longer required, data stored locally
+- Zero inputs are no longer possible
+- **Virtual Water Bottle** - now prominently displayed on the main screen
+
+#### Bug Fixes
+
+- If something has been deleted, with the same amount, the timestamp has been reset
+
+<br>
+
+## **Version 1.0.1**
+
+**January 2026**
+
+#### What's New
+
 - **Redesigned Icons** - All cup sizes now feature beautiful, redesigned icons for better visual clarity
 - **Daily Motivation** - Start your day with inspiring messages, now visible in your Apple Watch Smart Stack
 - **Virtual Water Bottle** - Your virtual water bottle is now prominently displayed on the main screen for easier tracking
 - **Quick Add Button** - New "Plus" button in Bar Coach for lightning-fast drink additions
 
 #### Improvements
+
 - Enhanced widget experience for iPhone mini series devices
 - Better drink size recognition with updated, more intuitive icons
 - Improved readability when creating custom drinks with better contrast
 
 #### Bug Fixes
+
 - Fixed Lock Screen shortcut icons displaying at incorrect size
 - Resolved various visual inconsistencies across different device sizes
 
 <br>
 
 ### `Initial Release`
+
 ## **Version 1.0**
+
 **December 2025**
 
 Welcome to Sweatloss! We're excited to introduce the first version of your personal hydration tracking companion. Stay healthy and build better habits by tracking your daily water intake effortlessly.
 
 #### What's New
+
 - **Daily Water Tracking** - Log your water intake throughout the day with quick and easy taps
 - **Personalized Goals** - Set custom hydration goals based on your weight, activity level, and climate
 - **Progress Insights** - View beautiful charts and statistics to track your hydration trends over time
