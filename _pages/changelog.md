@@ -13,6 +13,26 @@ Stay up to date with the latest features and improvements to Sweatloss.
 
 ### `Latest Update`
 
+## **Version 1.1.0**
+
+**February 2026**
+
+#### What's New
+
+- **sDrink History** - New “Drink History” tab with weekly overview, daily timeline, and detailed log
+- **Redesigned Mainscreen** - Refreshed layout and expanded quick access
+
+#### Improvements
+
+- **Quick Add** - Faster access to your hydration data and edits
+
+#### Bug Fixes
+
+- Today’s entries can now be edited reliably
+
+<br>
+
+
 ## **Version 1.0.1**
 
 **January 2026**
